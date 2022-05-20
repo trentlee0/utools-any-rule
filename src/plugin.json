@@ -1,0 +1,33 @@
+{
+  "pluginName": "Any Rule",
+  "author": "Trent0",
+  "homepage": "https://github.com/trentlee0",
+  "description": "常用正则表达式大全",
+  "version": "1.0.0",
+  "logo": "icon/logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "any-rule",
+      "explain": "搜索常用正则表达式",
+      "cmds": [
+        "zz",
+        "AnyRule",
+        "常用正则"
+      ]
+    },
+    {
+      "code": "visual-rule",
+      "explain": "打开正则可视化网站",
+      "cmds": [
+        {
+          "type": "regex",
+          "label": "图解正则",
+          "match": "/^\\/(.*)\\/[igmuy]{0,5}$/",
+          "minLength": 2,
+          "maxLength": 200
+        }
+      ]
+    }
+  ]
+}
