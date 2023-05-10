@@ -1,4 +1,4 @@
-const rules = require('./lib/RULES')
+const rules = require('./RULES')
 const {shell} = require('electron')
 
 const showList = rules.map((value) => ({

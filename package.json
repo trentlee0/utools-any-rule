@@ -1,0 +1,13 @@
+{
+  "name": "utools-any-rule",
+  "private": true,
+  "author": "Trent0",
+  "homepage": "https://github.com/trentlee0/utools-any-rule#readme",
+  "scripts": {
+    "pull": "sh pull-rules.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "utools-api-types": "^3.0.0"
+  }
+}
